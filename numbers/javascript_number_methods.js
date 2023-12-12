@@ -15,3 +15,4 @@
 // toString() Method
 let x1 = 123;
 console.log(x1.toString()); // returns 123 from a number    
+// DOM methods are actions you can perform (on HTML Elements).
