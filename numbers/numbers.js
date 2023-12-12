@@ -35,3 +35,33 @@ let y6 = "10";
 let z6 = x5 - y5; 
 console.log(z6);
 
+let x7 = "100"
+let y7 = "10"
+z7 = x7 * y7
+console.log(z7)
+
+// Trying to do arithmetic with a non-numeric string will result in NaN (Not a Number):
+let x8 = 100 / "apple"
+console.log(x8)
+
+let x9 = 100 / "10"
+console.log(x9) // this will work
+
+console.log(isNaN(x8)) // this will check if x8 is not a number
+
+let z9 = NaN + 5 // this will return NaN
+console.log(z9)
+
+// Infinity
+let myNumber  = 2;
+while (myNumber != Infinity){
+    myNumber *= myNumber;
+}
+console.log(myNumber)
+
+
+// devide by zero will return infinity
+let x10 = 2 / 0;
+let x11 = -2 / 0;
+console.log(x10)
+console.log(x11)
